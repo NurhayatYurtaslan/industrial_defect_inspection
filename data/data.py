@@ -1,3 +1,4 @@
+//Kütüphane Tanımlama
 import numpy as np
 import os
 import cv2
@@ -11,7 +12,6 @@ IMAGE_CHANNELS = 1
 IMAGE_SHAPE = (180, 180)
 PIXEL_DEPTH = 256
 path_to_images = './Data/Dataset-DetectNet_20161128_512-20170313T074149Z-001/Dataset-DetectNet_20161128_512/train/images/'
-
 
 def load_images(path_to_images, shape=(256, 256), filename_index=True):
 
