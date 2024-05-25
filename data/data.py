@@ -3,7 +3,7 @@ import os
 import cv2
 import glob
 import matplotlib.image as mpimg
-from .Transform import get_mask_seg, get_mask_seg_ellipse
+from .transform import get_mask_seg, get_mask_seg_ellipse
 
 IMAGE_HEIGHT = 512
 IMAGE_WIDTH = 512
