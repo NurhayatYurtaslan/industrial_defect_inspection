@@ -4,7 +4,7 @@ import glob
 import os
 import xmltodict
 import numpy as np
-from .Utils import get_coordinates, load_coordinates
+from .utils import get_coordinates, load_coordinates
 import cv2
 import json
 
