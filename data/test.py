@@ -1,1 +1,1 @@
-from Plot import get_coordinates
+from pilot import get_coordinates
