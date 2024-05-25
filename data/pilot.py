@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import numpy as np
 
-from .Transform import get_mask_seg, get_mask_seg_ellipse, get_mask_seg_polygon
-from .Utils import get_coordinates
+from .transform import get_mask_seg, get_mask_seg_ellipse, get_mask_seg_polygon
+from .utils import get_coordinates
 
 def plot_ellipse(raw_img, coordinates):
     """plot image with ellipse contour
